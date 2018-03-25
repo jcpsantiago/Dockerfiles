@@ -1,4 +1,4 @@
-FROM rocker/verse
+FROM rocker/tidyverse
 RUN install2.r --error \
     --deps TRUE \
     stringi \
